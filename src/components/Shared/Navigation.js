@@ -9,10 +9,7 @@ import Stack from '@mui/material/Stack';
 const Navigation = () => {
   return (
     <Stack direction="row" alignItems="center" 
-    justifyContent="flex-start"
-    // sx={{ gap: {sm: '122px',
-    // xs: '40px'}, mt: { sm: '28px', xs: '16px'}}}
-    // px="20px"
+    justifyContent="flex-start" minWidth="100%"
     >
       <Link to="/">
         <img src={RexIcon} alt="Rex Icon" 
